@@ -32,6 +32,9 @@ ASContainerView will load the view, if it has not been shown before, or show an 
 
 ### Support for all UIView-compatible instantiation methods
 ASContainerView will try and search for a XIB first, if successful, loading will be done from a XIB.
+```Swift
+init?(coder aDecoder: NSCoder)
+```
 
 If not found, it will attempt to instantiate with
 ```Swift
