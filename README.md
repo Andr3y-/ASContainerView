@@ -1,12 +1,12 @@
 # ASContainerView
 
-### What is this for:
+### What is this for?
 Optimize loading time for heavy multi-layer views. 
 
 For instance, GMSMapView takes 1.5 seconds loading time on iPhone 6.
 Use resources wisely and only load views that are actually requested by the user.
 
-## Features:
+## Features
 - Easy setup
 - Lazy views instantiation
 - Support for all UIView-compatible instantiation methods
