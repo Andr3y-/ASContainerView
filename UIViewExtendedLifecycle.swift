@@ -9,5 +9,17 @@
 import UIKit
 
 protocol UIViewExtendedLifeCycle {
-    func viewDidShow()
+	func viewWillShow()
+	func viewDidShow()
+}
+
+extension UIViewExtendedLifeCycle {
+	// Optional
+	func viewDidShow() {
+
+	}
+	// Optional
+	func viewWillShow() {
+
+	}
 }
