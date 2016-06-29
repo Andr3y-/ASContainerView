@@ -78,7 +78,7 @@ func containerDidShow(view: UIView, atIndex index: Int, container: ASContainerVi
 
 ### UIViewExtendedLifeCycle
 
-Alternatively, get callbacks in view classes for additional setup inside:
+Alternatively, get callbacks inside your view classes for additional setup:
 
 ```Swift
 extension GMSMapView: UIViewExtendedLifeCycle {
