@@ -96,4 +96,4 @@ extension GMSMapView: UIViewExtendedLifeCycle {
 
 ## License
 
-MIT 2016
+MIT 2016 (c)
